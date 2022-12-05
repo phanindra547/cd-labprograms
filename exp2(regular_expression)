@@ -250,3 +250,14 @@ def mod_table(inp,start,cur,end,table):
 start,cur,end,table = mod_table(inp,start,cur,end,table)
 
 print_t(table)
+
+OUTPUT
+state     | epsilon   | a         | b         
+----------------------------------------------
+1         | 2 7       |           |           
+2         | 3         | 3         |           
+3         | 4 6       |           |           
+4         |           |           | 5         
+5         | 4 6       |           |           
+6         | 2 7       |           |           
+7         |           |           | 
