@@ -1,4 +1,4 @@
-250 lines (224 sloc)  6.33 KB
+
 
 inp = "((e+a).b*)*"#input("")
 """
